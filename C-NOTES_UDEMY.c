@@ -1,12 +1,5 @@
-// CHALLENGE 1
-#include <stdio.h>
-
-int main() {
-    printf("Hello, my name is Ben!");
-    return 0;
-}
-
-Strings
+/*
+S10 Strings
 
 also known as character arrays i.e array of char variables
 take note of using single vs double quotation mark for char variable. single quotes are for characters
@@ -31,3 +24,4 @@ scanf only reads until a space character
 use fgets
 
 
+*/
