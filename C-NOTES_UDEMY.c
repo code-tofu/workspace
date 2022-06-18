@@ -21,7 +21,31 @@ you can initialise part of array to a string although the memory is still alloca
 you cannot directly assign to an array variables, you need to assign to element indices. use strcopy
 
 scanf only reads until a space character 
-use fgets
+use fgets to read regardless of spaces
+
+you cannot use equality operator for structures or arrays, either comparing element by element or using strcompr. you can compare characters eg. ==  /0
+to find length of string, user strlen
+
+defining CONST strings - more meaningful and efficient if the value if used many times, or if values don't need to change (compare to a variable)
+note that define has no semicolon as it is not a statement
+define values don't have any scope - tey are pre-processor compiled so it exists eveywhere
+#define CONSTSTRING "constant string"
+#define CONSTCHAR 'x'
+const int MONTHS = 12
+const is better because it allows better control over the usage and allows you to declare the type
+
+string.h functions:
+strlen, strcpy, strncpy
+strcat,strncat, strcmp, strncmp
+
+len is returned as size_t variable (integer, use %d to display)
+you cannot assign array in C hence /you cannot assign stings e.g.
+ char s[100]; //declare
+ s = "hello"; //initialize does not work
+you can use strcpy to define
+
+strn includes an additional argument which is the length to copy. i.e. use the length of thje destination array to prevent buffer overflows
+sizeof()-1?
 
 
 */
