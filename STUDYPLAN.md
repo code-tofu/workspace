@@ -7,7 +7,7 @@
   - Course 1: Completed
   - Course 2: Structured Programming
 
-## Udemy: Python Complete Developer Course
+## Udemy: Learn Python Programming Masterclss
   - Section 1-6: Completed
   - *Section 7: Dictionaries and Sets*
 

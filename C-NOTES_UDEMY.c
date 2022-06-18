@@ -47,5 +47,10 @@ you can use strcpy to define
 strn includes an additional argument which is the length to copy. i.e. use the length of thje destination array to prevent buffer overflows
 sizeof()-1?
 
+strcmp gives a value that is equal or less than greater than
+you can only use strcmp on strings i.e. "A" not  'A'. the value is either the length or the ASCII value?
+if compares until it finds corresponding characters that differ
+strncmp compares sttring until they differ unitl the length argument e.g. prefix
+
 
 */
