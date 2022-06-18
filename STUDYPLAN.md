@@ -15,6 +15,8 @@
   - Section 1-9: Completed
   - *Section 10: Strings*
   - *Challenges*
+    - *Review Challenge 56*
+    - *Challenge 61* 
 
 ## Datacamp: Data Scientist with Python
   - Section 1-4 Completed
