@@ -7,7 +7,7 @@
   - Course 1: Completed
   - Course 2: Structured Programming
 
-## Udemy: Python Complete Developer Course
+## Udemy: Learn Python Programming Masterclss
   - Section 1-6: Completed
   - *Exercise 12, 149-16*
   - *Challange 47, 54, 127, 141,142, 144, 146, 148, 153
