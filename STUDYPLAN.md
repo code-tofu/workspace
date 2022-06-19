@@ -9,6 +9,9 @@
 
 ## Udemy: Python Complete Developer Course
   - Section 1-6: Completed
+  - *Exercise 12, 149-16*
+  - *Challange 47, 54, 127, 141,142, 144, 146, 148, 153
+  - *Section 6: Functions*
   - *Section 7: Dictionaries and Sets*
 
 ## Udemy: C Programming for Begineers
