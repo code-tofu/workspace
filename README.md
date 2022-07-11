@@ -1,23 +1,23 @@
 # WORKSPACE:
 
-## ACTION ORDER
-	- Finish Udemy C
-	- Practice CS1010E Lecture Exercises/Tutorials
-	- Practice CS50 Lecture Assignments
-
-	- Continue Udemy Py
-	- Review and Split Udemy Py Challenges
-	- Datacamp PyReview Datacamp Python
-	- Start DS4 Project
-
-	- Continuing Watching CS50 Lectures?
-	- Python Mosh Project?
-	- Datacamp Project?
-
 # STUDYPLAN
 ## INBOX
 	- Look through Pointers Udemy C again
 	- Sign up CS50 on EDX?
+
+## ACTION ORDER
+  - Finish Udemy C
+  - Practice CS1010E Lecture Exercises/Tutorials
+  - Practice CS50 Lecture Assignments
+
+  - Continue Udemy Py
+  - Review and Split Udemy Py Challenges
+  - Datacamp PyReview Datacamp Python
+  - Start DS4 Project
+
+  - Continuing Watching CS50 Lectures?
+  - Python Mosh Project?
+  - Datacamp Project?
 
 ## Coursera Google PM:
   - Course 1-5:Completed
@@ -35,10 +35,9 @@
   - *Section 7: Dictionaries and Sets*
 
 ## Udemy: C Programming for Begineers
-  - Section 1-11: Completed
-   - *Challenges*
-    - *Review Challenge 56*
-    - *Challenge 61, 81, 82* 
+  - Section 1-12,15: Completed
+  - *Challenges*
+  - *Challenge 63, 70,72 80, 82,92,101,104,108,109* 
 
 ## Datacamp: Data Scientist with Python
   - Section 1-4 Completed
@@ -53,7 +52,7 @@
   - *Tutorials*
 
 ## CS1010E 1112
-  - Lecture 1-2: Completed
+  - Lecture 1-3: Completed
   - *Lecture 3*
   - *Tutorials*
 
