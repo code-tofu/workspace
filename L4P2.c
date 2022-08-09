@@ -9,7 +9,7 @@ int main(){
     printf("\n Input the radii of the three smaller circles:");
     scanf("%lf %lf %lf ",&R2 &R3 &R4 );
     area = circlearea(R1) - circlearea(R2) - circlearea(R3) - circlearea(R4);
-    printf("The area of the shaded area is %lf", area)
+    printf("The area of the shaded area is %lf", area);
 }
 
 float circlearea(float radius){
