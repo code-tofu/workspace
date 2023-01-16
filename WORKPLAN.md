@@ -6,12 +6,14 @@
     - Fibonacci
     - Collatz Conjecture
 
+https://www.programiz.com/dsa/algorithm
+
 ## Code Algorithms for:
     - Merge Sort
     - Selection Sort
     - Insertion Sort
     - Bubble Sort
-    - Binary Searc
+    - Binary Search
     - Linear Search
 
 ## CS50 Problem Sets
@@ -39,6 +41,9 @@
 
     https://youtu.be/X8h4dq9Hzq8?t=5103
     https://www.youtube.com/watch?v=X8h4dq9Hzq8&t=6069s
+
+#IDEAS
+    Python Programme for showing distribution of list for efficient hashing?
 
 # CODING TOOLS
      - Use IPAD/standing table/textastic/working copy
