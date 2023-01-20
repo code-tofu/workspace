@@ -44,30 +44,7 @@ https://www.programiz.com/dsa/algorithm
 
 #IDEAS
     Python Programme for showing distribution of list for efficient hashing?
-
-# CODING TOOLS
-     - Use IPAD/standing table/textastic/working copy
-     - Use SURFACE/standingtable/treadmilltable
-
-    Tools
-    - GIT: Workspace/Todo, CS50 Code Space,  Other Cloud Spaces
-    - Git Sync, IPAD_CODE sync
-    - Apple Notes, Apple Freeform, White Campus Notebook, Onenote
-    - Lenovo CS, Chrome Bookmarks, Tick Tick Articles, Youtube CS_INBOX, Instacode
-
-    IPAD
-    - Textastic
-    - Git/working copy
-    - Sandbox
-    - Pyto
-
-    MB/Surface
-    - pycharm
-    - vscode
-    - sublime
-    - rstudio
-    - anadconda
-
+    Learn SDLC
 
 # REVIEW
     HTML-CSS
