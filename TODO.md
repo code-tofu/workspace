@@ -1,5 +1,8 @@
 # CODENEXT:
     CS50
+    https://cs50.harvard.edu/x/2022/psets/3/tideman/
+    https://cs50.harvard.edu/x/2020/psets/4/recover/
+    https://cs50.harvard.edu/x/2022/psets/4/filter/more/
     
     AI100
     
