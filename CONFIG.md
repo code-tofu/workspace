@@ -22,20 +22,23 @@
     - anadconda
 
 # EXTENSIONS/CONFIG
-  Enable Code Folding
-  !jt -t monokai -f consolamono -fs 10 -nf opensans -nfs 10 -tfs 10 -ofs 9 -cursw 2 -cursc r -cellw 95%  -T -kl
 
-  Live Server
-  Prettier
+     PREFERENCES
+     - Enable Code Folding
+     - jupyterthemes package: !jt -t monokai -f consolamono -fs 10 -nf opensans -nfs 10 -tfs 10 -ofs 9 -cursw 2 -cursc r -cellw 95%  -T -kl
+     - Monokai Pro Theme
 
-  Python
-  C/C++
-  Jupyter
+     EXTENSIONS
+     - Python
+     - C/C++
+     - Jupyter
+     - Live Server
+     - Prettier
+     - Todo Tree
+     - VSCode Pets
+     - Duck Debugger
+     - Hex Editor
 
-  VSCode Pets
-  Duck Debugger
+       Cmake?
 
-  Cmake?
 
-  jupyterthemes package
-  Monokai Pro Theme
