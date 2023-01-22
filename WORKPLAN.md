@@ -6,7 +6,7 @@
     - Fibonacci
     - Collatz Conjecture
 
-https://www.programiz.com/dsa/algorithm
+    https://www.programiz.com/dsa/algorithm
 
 ## Code Algorithms for:
     - Merge Sort
@@ -45,6 +45,11 @@ https://www.programiz.com/dsa/algorithm
 #IDEAS
     Python Programme for showing distribution of list for efficient hashing?
     Learn SDLC
+    
+    Move over submitted code
+    Combine SRC code
+    Move data into gitignore
+    https://docs.github.com/en/repositories/archiving-a-github-repository/archiving-repositories
 
 # REVIEW
     HTML-CSS
