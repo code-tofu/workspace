@@ -60,6 +60,6 @@
     SQL Practice using SQLMurderMystery
     https://mystery.knightlab.com/
 
-    [Mosh Python](https://www.youtube.com/watch?v=_uQrJ0TkZlc&feature=youtu.be)
+    [Mosh Python](https://www.youtube.com/watch?v=_uQrJ0TkZlc) - Django
 
 
