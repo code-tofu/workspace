@@ -6,9 +6,12 @@
     
     AI100
     
+    
     Datacamp DS6: Joining Data with Pandas
+    - Review Using Cards
 
     Udemy Web Section 9
+    - Review using W3S/CodeAcad
   
 	Udemy Py Section 7: Dictionaries and Sets
 	- Challenge 141,142, 144, 146, 148, 153
@@ -18,6 +21,11 @@
     CS1010E Lecture 5
 	- Practice CS1010E Lecture Exercises/Tutorials
 	- Compile Syntax CS1010E
+    - Coursera C vids
+    
+    SQL
+    - murdermystery
+
 # TRY
 	Use Notebook
 	IntelliJ TODO Comments
