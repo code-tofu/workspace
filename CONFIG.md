@@ -42,6 +42,12 @@
        https://medium.com/short-bits/todo-highlight-level-up-your-comments-1ffbda009836
        https://github.com/Gruntfuggly/todo-tree/wiki/Configuration-Examples
        
+# FONTS
+     Consolas
+     FiraCode
+     Jetbrains Mono
+     Lucida Console
+     Input
 
 # CONFIG
      - jupyterthemes package: !jt -t monokai -f consolamono -fs 10 -nf opensans -nfs 10 -tfs 10 -ofs 9 -cursw 2 -cursc r -cellw 95%  -T -kl
