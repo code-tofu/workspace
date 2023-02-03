@@ -25,6 +25,7 @@
      PREFERENCES
      - Enable Code Folding
      - Monokai Pro Theme
+     - Material Icon Theme
 
      EXTENSIONS
      - Python
