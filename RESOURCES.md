@@ -1,18 +1,73 @@
-PROGRAMMING
-- CS50
-- Coursera C
-- Coursera R
-- Coursera HTML
-- Udemy Python
-- Youtube
-- Datacamp/LinkedIn Learning  
-RESOURCES
-- Udemy NLB
-- Sign Up for CS50 on EDX
-- CS50 additional lectures
-- CSDojo
-- Datacamp
-- Youtube
+# PROGRAMMING
+	- CS50
+	- Coursera C
+	- Coursera R
+	- Coursera HTML
+	- Udemy Python
+	- Youtube
+	- Datacamp/LinkedIn Learning  
+
+# RESOURCES
+	- Udemy NLB
+	- Sign Up for CS50 on EDX
+	- CS50 additional lectures
+	- CSDojo
+	- Datacamp
+	- Youtube
+
+# CS50
+
+## Practice Recursion for:
+    - Mario
+    - Factorial
+    - Fibonacci
+    - Collatz Conjecture
+
+## Code Algorithms for:
+    - Merge Sort
+    - Selection Sort
+    - Insertion Sort
+    - Bubble Sort
+    - Binary Search
+    - Linear Search
+
+## CS50 Problem Sets
+### Past Exercises/Check/Copy out Guides from CS50
+    https://cs50.harvard.edu/x/2021/
+    https://cs50.harvard.edu/x/2020/
+    https://cs50.harvard.edu/x/2019/
+    https://cs50.harvard.edu/x/2022/
+
+### More Problem Sets
+    https://docs.cs50.net/2019/x/psets/2/index.html
+    https://docs.cs50.net/2019/x/psets/3/index.html
+    https://cs50.harvard.edu/x/2020/psets/4/recover/
+    https://cs50.harvard.edu/x/2022/psets/3/tideman/
+    https://cs50.harvard.edu/x/2022/psets/4/filter/more/
+
+## Revise CS50L5 Shorts
+    https://cs50.harvard.edu/x/2022/shorts/singly_linked_lists/
+    https://cs50.harvard.edu/x/2022/shorts/doubly_linked_lists/
+    https://cs50.harvard.edu/x/2022/shorts/queues/
+    https://cs50.harvard.edu/x/2022/shorts/stacks/
+
+    https://cs50.harvard.edu/x/2022/shorts/hash_tables/
+    https://cs50.harvard.edu/x/2022/shorts/tries/
+
+    https://youtu.be/X8h4dq9Hzq8?t=5103
+    https://www.youtube.com/watch?v=X8h4dq9Hzq8&t=6069s
+
+## SEMINARS
+https://cs50.readthedocs.io/
+https://cs50.harvard.edu/x/2021/seminars/
+https://cs50.harvard.edu/x/2022/seminars/
+
+
+
+
+EXERCISES
+https://www.hackerrank.com/
+https://leetcode.com/problemset/all/
 
 ROADMAPS
 https://www.imda.gov.sg/cwp/assets/imtalent/skills-framework-for-ict/index.html
@@ -22,10 +77,6 @@ CLOUDCODE
 https://cplayground.com/
 https://www.coursera.org/learn/c-for-everyone/lab-sandbox
 https://manual.cs50.io/
-Try Using the IDEs:
-https://www.jetbrains.com/pycharm/
-https://www.jetbrains.com/idea/
-https://www.jetbrains.com/clion/
 
 PYTHON
 https://www.edx.org/course/cs50s-introduction-to-programming-with-python
@@ -40,6 +91,7 @@ https://www.hackerrank.com/
 https://www.topcoder.com/
 https://leetcode.com/
 https://learn.mongodb.com/
+https://www.programiz.com/dsa/algorithm
 
 YOUTUBE
 https://youtube.com/playlist?list=PLQR_ThEIuh6W5T9ieVvV18ggH-pv_RP7g
@@ -74,14 +126,6 @@ https://github.com/RussellDash332/cs1010s-finals-template
 https://www.comp.nus.edu.sg/~cs1101s/
 https://www.coursehero.com/file/67528928/CS1010S-Lec09-in-lecture-versionpdf/
 
-CS50.2021
-https://cs50.harvard.edu/x/2021/notes/0/
-https://cs50.harvard.edu/x/2022/
-
-https://cs50.harvard.edu/x/2021/seminars/
-https://cs50.readthedocs.io/
-https://ide.cs50.io/
-
 CS1010E(C) Resources
 https://nus-cs1010.github.io/2021-s1/
 https://www.comp.nus.edu.sg/~hchia/MSYS/gettingStarted.html (downloaded)
@@ -109,7 +153,31 @@ https://www.coursera.org/learn/data-analysis-r
 https://learndigital.withgoogle.com/digitalunlocked/course/learn-python-basics-for-data-analysis
 https://learndigital.withgoogle.com/digitalunlocked/course/data-science-foundations
 
+
 OTHERS
 Others:
 DATACAMP R tutorial - Learn R Programming: https://www.youtube.com/playlist?list=PLjgj6kdf_snYBkIsWQYcYtUZiDpam7ygg 
 https://www.baucomrobotics.com/domino-robot
+
+https://www.udemy.com/user/jonasschmedtmann/
+https://www.udemy.com/user/timbuchalka/
+
+
+# TRACKING
+
+## IN PROGRESS
+    Java Programming Masterclass updated to Java 17
+    Build Responsive Real-World Websites with HTML and CSS
+    Learn Python Programming Masterclass
+    https://www.youtube.com/watch?v=_uQrJ0TkZlc) - Mosh Python Django
+
+## COMPLETED 
+    C for Everyone: Programming Fundamentals University of California, Santa Cruz
+    C Programming For Beginners - Master the C Language
+
+## PLANNED
+    The Complete JavaScript Course 2023: From Zero to Expert
+    Advanced C Programming Course
+    SQL for Beginners: Learn SQL using MySQL and Database Design
+    Beginning C++ Programming - From Beginner to Beyond
+    Data Structures and Algorithms: Deep Dive Using Java

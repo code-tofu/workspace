@@ -27,8 +27,6 @@
 	- murdermystery
 
 # TRY
-	Use Notebook
-	IntelliJ TODO Comments
 	LESSON 75 REFACTORING - using intelliJ refactoring to make it comply to PEP8 style guide
 	LECTURE 78 Conditional Debugging. Learn to use debugger
 	Generator Expression (L117). Comprehensions?
@@ -52,3 +50,7 @@
     - C Notes
     - PY Notes
     - HTML Notes
+
+# IDEAS
+    Python Programme for showing distribution of list for efficient hashing?
+    Learn SDLC

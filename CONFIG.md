@@ -1,7 +1,4 @@
 # CODING TOOLS
-     - Use IPAD/standing table/textastic/working copy
-     - Use SURFACE/standingtable/treadmilltable
-
     Tools
     - GIT: Workspace/Todo, CS50 Code Space,  Other Cloud Spaces
     - Git Sync, IPAD_CODE sync
@@ -15,11 +12,16 @@
     - Pyto
 
     MB/Surface
-    - pycharm
     - vscode
     - sublime
     - rstudio
-    - anadconda
+    - anaconda
+
+
+    Try Using the IDEs: (Stick to VS Code)
+     https://www.jetbrains.com/pycharm/
+     https://www.jetbrains.com/idea/
+     https://www.jetbrains.com/clion/
 
 # EXTENSIONS/CONFIG
      PREFERENCES
