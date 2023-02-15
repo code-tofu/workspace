@@ -1,0 +1,8 @@
+**/target
+**/data
+pom.xml
+
+**/classes/**
+**/out/**
+**/.idea/**
+*.iml
