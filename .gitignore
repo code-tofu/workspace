@@ -6,3 +6,5 @@ pom.xml
 **/out/**
 **/.idea/**
 *.iml
+
+**/.DS_Store/**
