@@ -75,3 +75,8 @@
     - DS6: Joining Data with Pandas
     - Datacamp Practice Exercises
     - Datacamp Flash Card Review
+	
+# TRY/OTHERS
+    Python Programme for showing distribution of list for efficient hashing?
+    Learn SDLC
+	
