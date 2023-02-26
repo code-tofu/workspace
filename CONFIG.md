@@ -56,3 +56,7 @@
      - jupyterthemes package: !jt -t monokai -f consolamono -fs 10 -nf opensans -nfs 10 -tfs 10 -ofs 9 -cursw 2 -cursc r -cellw 95%  -T -kl
 
 
+https://packagecontrol.io/packages/Theme%20-%20Monokai%20Pro
+https://www.tempertemper.net/blog/the-best-sublime-text-theme#:~:text=Monokai%20is%20the%20default%20font,Purple%20(the%20default%20theme)
+
+
