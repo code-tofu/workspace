@@ -46,6 +46,7 @@
 
  https://medium.com/short-bits/todo-highlight-level-up-your-comments-1ffbda009836
  https://github.com/Gruntfuggly/todo-tree/wiki/Configuration-Examples
+ 
 
  ## ANACONDA PREFERENCES
   - jupyterthemes package: !jt -t monokai -f consolamono -fs 10 -nf opensans -nfs 10 -tfs 10 -ofs 9 -cursw 2 -cursc r -cellw 95%  -T -kl
@@ -73,3 +74,4 @@
     Purple: (158, 134, 200); #9e86c8
     Pink: (176, 82, 121); #b05279
     Blue: (108, 153, 187); #6c99bb
+    https://github.com/lysyi3m/macos-terminal-themes
