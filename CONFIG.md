@@ -65,11 +65,13 @@
 
 
 ## FONTS
- Consolas
- FiraCode
- Jetbrains Mono
- Lucida Console
- Input
+Consolas
+FiraCode
+Jetbrains Mono
+Input
+https://www.jetbrains.com/lp/mono/
+https://github.com/tonsky/FiraCode
+https://github.com/microsoft/cascadia-code
 
 ## MONOKAI COLOUR SCHEME
 Background: (46, 46, 46); #2e2e2e
@@ -82,3 +84,6 @@ Purple: (158, 134, 200); #9e86c8
 Pink: (176, 82, 121); #b05279
 Blue: (108, 153, 187); #6c99bb
 https://github.com/lysyi3m/macos-terminal-themes
+
+
+

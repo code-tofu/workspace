@@ -1,5 +1,7 @@
 package com.in28m.restSurvey.survey;
 
+import java.math.BigInteger;
+import java.security.SecureRandom;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -66,5 +68,38 @@ public class SurveyService {
 			return null;
 		return optionalQuestion.get();
 	}
+
+	public String addNewSurveyQuestion(String surveyId, Question question) {
+		List<Question> questions = retrieveAllSurveyQuestions(surveyId);
+		question.setId(generateRandomId()); //use a random ID instead of getting from POST
+		questions.add(question);
+		return question.getId();
+	}
+	
+	private String generateRandomId() {
+		SecureRandom secureRandom = new SecureRandom();
+		// BigInteger(int numBits, Random rnd)
+		String randomId = new BigInteger(32, secureRandom).toString();
+		return randomId;
+	}
+
+	public String deleteSurveyQuestion(String surveyId, String questionId) {
+		List<Question> surveyQuestions = retrieveAllSurveyQuestions(surveyId);
+		if (surveyQuestions == null)
+			return null;
+		Predicate<? super Question> predicate = q -> q.getId().equalsIgnoreCase(questionId);
+		boolean removed = surveyQuestions.removeIf(predicate);
+		//return null if not successful or return questionID if successful
+		if(!removed) return null; 
+		return questionId;
+	}
+
+	public void updateSurveyQuestion(String surveyId, String questionId, Question question) {
+		List<Question> questions = retrieveAllSurveyQuestions(surveyId);
+		questions.removeIf(q -> q.getId().equalsIgnoreCase(questionId));
+		questions.add(question);
+	}
+
+	
 
 }
