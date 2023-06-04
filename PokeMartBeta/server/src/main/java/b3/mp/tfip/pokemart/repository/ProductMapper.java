@@ -18,27 +18,7 @@ public class ProductMapper implements RowMapper<ProductDAO> {
                 rs.getString("category"),
                 rs.getDouble("cost"),
                 rs.getString("details"),
-                rs.getString("product_name"),
-                rs.getString("spritesURL"),
-                null);
-        // rs.getBytes("sprite")
+                rs.getString("product_name"));
         return product;
     }
 }
-
-// public ProductDAO(String productID, int apiID, String nameID, String
-// category, double cost, String details, String productName, String spritesURL,
-// byte[] sprite)
-// +--------------+--------------+------+-----+---------+-------+
-// | Field | Type | Null | Key | Default | Extra |
-// +--------------+--------------+------+-----+---------+-------+
-// | product_id | varchar(10) | NO | | NULL | |
-// | api_id | int | NO | | NULL | |
-// | name_id | varchar(50) | NO | | NULL | |
-// | category | varchar(50) | YES | | NULL | |
-// | cost | double(8,2) | NO | | NULL | |
-// | details | varchar(500) | NO | | NULL | |
-// | product_name | varchar(50) | NO | | NULL | |
-// | spritesURL | varchar(255) | YES | | NULL | |
-// | sprite | mediumblob | YES | | NULL | |
-// +--------------+--------------+------+-----+---------+-------+

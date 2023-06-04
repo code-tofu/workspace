@@ -33,18 +33,18 @@ public class SetupService {
         Random rand = new Random();
         for (int i = 0; i < size;) {
             try {
-                System.out.println(">>Creating Product #" + (i + 1));
+                System.out.println(">> [INFO] Creating Product #" + (i + 1));
                 int randInt = rand.nextInt(MAX_ITEM_ID) + 1;
                 Optional<String> itemJsonStr = getProductDataFromAPI(randInt);
 
                 if (itemJsonStr.isEmpty()) {
-                    System.out.println(">>Empty Response. Restarting Download");
+                    System.out.println(">> [WARNING] Empty Response. Restarting Download");
                     continue;
                 }
 
                 JsonObject productJson = Utils.getJsonObjectFromStr(itemJsonStr.get());
                 if (!productRepo.insertProduct(ProductUtils.createProductDAOFromJson(productJson))) {
-                    System.out.println(">>Insertion into DB Failed. Restarting Download");
+                    System.out.println(">> [WARNING] Insertion into DB Failed. Restarting Download");
                     continue;
                 }
 
@@ -52,30 +52,31 @@ public class SetupService {
                 Thread.sleep(1000); // rate limiter
 
             } catch (InterruptedException interErr) {
-                System.out.println(">>Downloading Interrupted. Restarting Download");
+                System.out.println(">> [ERROR] " + interErr);
+                System.out.println(">> [WARNING] Rate Limiter Interrupted. Restarting Download.");
             } catch (DataAccessException daErr) {
-                System.out.println(daErr);
-                System.out.println(">>DataAccessException. Restarting Download");
+                System.out.println(">> [ERROR] " + daErr);
+                System.out.println(">> [ERROR] DataAccessException. Restarting Download.");
                 break;
             }
 
         }
-        System.out.println(">>Created New Database of Size:" + size);
+        System.out.println(">> [INFO] Created New Database of Size:" + size);
     }
 
     public Optional<String> getProductDataFromAPI(int productID) {
         String itemURL = UriComponentsBuilder.fromUriString(pokeAPI).pathSegment("item")
                 .pathSegment(Integer.toString(productID)).toUriString();
-        System.out.println(">>Retrieve Product Data from:" + itemURL);
+        System.out.println(">> [INFO] Retrieve Product Data from:" + itemURL);
         RestTemplate restTemplate = new RestTemplate();
         RequestEntity<Void> req = RequestEntity.get(itemURL).build();
 
         try {
             ResponseEntity<String> resp = restTemplate.exchange(req, String.class);
-            System.out.println("--out-resp:" + resp.getBody());
+            System.out.println(">> [INFO] API RESPONSE:" + resp.getBody());
             return Optional.of(resp.getBody());
         } catch (HttpClientErrorException httpErr) {
-            System.out.println(">>PokeAPI Server Error:" + httpErr);
+            System.out.println(">> [ERROR] PokeAPI Server Error:" + httpErr);
             return Optional.empty();
         }
     }

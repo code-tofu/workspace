@@ -1,5 +1,6 @@
 package b3.mp.tfip.pokemart.service;
 
+import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,6 +22,10 @@ public class ProductService {
 
     public Optional<ProductDAO> getProductByApiID(int apiID) throws DataAccessException {
         return productRepo.getProductByApiID(apiID);
+    }
+
+    public List<String> getAllProductIDs(int limit, int offset) throws DataAccessException {
+        return productRepo.getAllProductIDs(limit, offset);
     }
 
 }

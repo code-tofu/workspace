@@ -1,11 +1,10 @@
 package b3.mp.tfip.pokemart.utils;
 
 import b3.mp.tfip.pokemart.model.ProductDAO;
+import jakarta.json.Json;
 import jakarta.json.JsonArray;
 import jakarta.json.JsonObject;
 import jakarta.json.JsonValue;
-
-import static b3.mp.tfip.pokemart.model.ProductDAO.SPRITE_URL_ROOT;
 
 public class ProductUtils {
 
@@ -19,9 +18,7 @@ public class ProductUtils {
                 pokeJsonObj.getJsonObject("category").getString("name"),
                 pokeJsonObj.getJsonNumber("cost").doubleValue(),
                 details,
-                getENname(pokeJsonObj.getJsonArray("names")),
-                removeURLroot(pokeJsonObj.getJsonObject("sprites").getString("default")),
-                null);
+                getENname(pokeJsonObj.getJsonArray("names")));
         return newProduct;
     }
 
@@ -47,8 +44,16 @@ public class ProductUtils {
         return "";
     }
 
-    private static String removeURLroot(String url) {
-        return url.replace(SPRITE_URL_ROOT, "");
+    public static JsonObject createJsonFromProductDAO(ProductDAO product) {
+        return Json.createObjectBuilder()
+                .add("productID", product.getProductID())
+                .add("apiID", product.getApiID())
+                .add("nameID", product.getNameID())
+                .add("category", product.getCategory())
+                .add("cost", product.getCost())
+                .add("details", product.getDetails())
+                .add("productName", product.getProductName())
+                .build();
     }
 
 }

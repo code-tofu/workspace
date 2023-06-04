@@ -1,10 +1,9 @@
 package b3.mp.tfip.pokemart.model;
 
-import java.util.Arrays;
-
 public class ProductDAO {
 
-    public static final String SPRITE_URL_ROOT = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/";
+    public static final String SPRITE_API_URL = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/";
+    public static final String SPRITE_TYPE = ".png";
 
     private String productID;
     private int apiID;
@@ -13,8 +12,6 @@ public class ProductDAO {
     private double cost;
     private String details;
     private String productName;
-    private String spritesURL;
-    private byte[] sprite;
 
     public String getProductID() {
         return productID;
@@ -72,27 +69,11 @@ public class ProductDAO {
         this.productName = productName;
     }
 
-    public String getSpritesURL() {
-        return spritesURL;
-    }
-
-    public void setSpritesURL(String spritesURL) {
-        this.spritesURL = spritesURL;
-    }
-
-    public byte[] getSprite() {
-        return sprite;
-    }
-
-    public void setSprite(byte[] sprite) {
-        this.sprite = sprite;
-    }
-
     public ProductDAO() {
     }
 
     public ProductDAO(String productID, int apiID, String nameID, String category, double cost, String details,
-            String productName, String spritesURL, byte[] sprite) {
+            String productName) {
         this.productID = productID;
         this.apiID = apiID;
         this.nameID = nameID;
@@ -100,15 +81,12 @@ public class ProductDAO {
         this.cost = cost;
         this.details = details;
         this.productName = productName;
-        this.spritesURL = spritesURL;
-        this.sprite = sprite;
     }
 
     @Override
     public String toString() {
         return "ProductDAO [productID=" + productID + ", apiID=" + apiID + ", nameID=" + nameID + ", category="
-                + category + ", cost=" + cost + ", details=" + details + ", productName=" + productName
-                + ", spritesURL=" + spritesURL + ", sprite=" + Arrays.toString(sprite) + "]";
+                + category + ", cost=" + cost + ", details=" + details + ", productName=" + productName + "]";
     }
 
 }

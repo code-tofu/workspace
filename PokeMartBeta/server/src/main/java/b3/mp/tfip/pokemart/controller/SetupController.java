@@ -27,7 +27,7 @@ public class SetupController {
             return ResponseEntity.status(HttpStatus.CREATED).body(resp.toString());
 
         } catch (NumberFormatException NFerr) {
-            System.err.println(">>Error:" + NFerr);
+            System.err.println(">> [ERROR] " + NFerr);
             JsonObject resp = Json.createObjectBuilder().add("400 Error", "Query Params 'size' needs to be a integer")
                     .build();
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(resp.toString());

@@ -5,6 +5,12 @@
 - Timing Diamgram
 - Entity Relationship Diagram
 
+## Console:
+
+- [INFO]
+- [WARNING]
+- [ERROR]
+
 ## Nomenclature:
 
 - Something Service -> somethingSvc
