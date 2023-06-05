@@ -14,5 +14,7 @@
 - select join product data inventory where quantity != 0
 - finish s3 uploaded
 - filter for 0 price
+- option for random/sequential
+- method to update discount/deduct
 
 scaffolding?

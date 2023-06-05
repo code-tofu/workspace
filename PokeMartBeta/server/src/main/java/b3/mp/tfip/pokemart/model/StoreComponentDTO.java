@@ -9,11 +9,13 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class InventoryDAO {
+public class StoreComponentDTO {
 
     private String productID;
+    private String productName;
+    private double cost;
     private int quantity;
     private double discount;
-    private double deduction;
+    private double deduct;
 
 }
