@@ -9,9 +9,10 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class StoreComponentDTO {
+public class CatalogueComponentDTO {
 
     private String productID;
+    private String nameID;
     private String productName;
     private double cost;
     private int quantity;

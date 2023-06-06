@@ -5,14 +5,15 @@ import java.sql.SQLException;
 
 import org.springframework.jdbc.core.RowMapper;
 
-import b3.mp.tfip.pokemart.model.StoreComponentDTO;
+import b3.mp.tfip.pokemart.model.CatalogueComponentDTO;
 
-public class StoreComponentMapper implements RowMapper<StoreComponentDTO> {
+public class CatalogueComponentMapper implements RowMapper<CatalogueComponentDTO> {
 
     @Override
-    public StoreComponentDTO mapRow(ResultSet rs, int rowNum) throws SQLException {
-        return new StoreComponentDTO(
+    public CatalogueComponentDTO mapRow(ResultSet rs, int rowNum) throws SQLException {
+        return new CatalogueComponentDTO(
                 rs.getString("product_id"),
+                rs.getString("name_id"),
                 rs.getString("product_name"),
                 rs.getDouble("cost"),
                 rs.getInt("quantity"),
