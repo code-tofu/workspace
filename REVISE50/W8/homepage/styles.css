@@ -1,0 +1,39 @@
+h1{
+    color: #14A44D;
+    font-weight: bold;
+}
+
+.link-title{
+    font-weight:bold;
+}
+
+.nav-item:nth-child(odd) {
+    background: #54B4D3;
+}
+
+#instruction{
+    color: #DC4C64;
+    font-weight: bold;
+    font-style: italic;
+
+    font-size: 1.5em;
+}
+
+.text-container{
+    padding:2em;
+}
+
+.m-top-10{
+    margin-top:10px;
+}
+
+.h600{
+    margin:auto;
+    max-height: 600px;
+    width:auto;
+}
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}

@@ -1,0 +1,31 @@
+cpsort1 uses: bubble sort
+How do you know?:
+Bubble sort has a omega of n, compared to a Big O of n^2, hence for the ideal case where the list is sorted, the run time is the quickest, comparing to sorting a random or reversed list.
+
+sort2 uses: merge sort
+How do you know?:
+Merge sort has a big O and omega of n log n (i.e. theta of n log n) and hence the run time does not change even if the list is sorted or reversed.
+Having a theta of n log n, the run time scales slower than selection sort as the problem size increases
+
+sort3 uses: selection sort
+How do you know?:
+Selection sort has a big O and omega of n^2 (i.e. theta of n^2) and hence the run time does not change even if the list is sorted or reversed.
+Having a theta of n^2, the run time scales faster than merge sort as the problem size increases
+
+
+sort used:		sort1		sort 2	    sort 3
+txt:			real		real		real
+
+random5000		0.234		0.068		0.06
+random10000		0.364		0.093		0.297
+random50000		8.536		0.611		3.391
+
+reversed5000	0.098		0.053		0.146
+reversed10000	0.29		0.097		0.198
+reversed50000	7.506		0.545		3.767
+
+sorted5000		0.067		0.076		0.066
+sorted10000		0.103		0.093		0.168
+sorted50000		0.891		0.656		3.157
+
+sort type		bubble  	merge       selection

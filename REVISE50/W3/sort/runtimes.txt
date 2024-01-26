@@ -1,0 +1,17 @@
+sort used:		sort1		sort 2	    sort 3
+txt:			real		real		real
+
+
+random5000		0.234		0.068		0.06
+random10000		0.364		0.093		0.297
+random50000		8.536		0.611		3.391
+
+reversed5000	0.098		0.053		0.146
+reversed10000	0.29		0.097		0.198
+reversed50000	7.506		0.545		3.767
+
+sorted5000		0.067		0.076		0.066
+sorted10000		0.103		0.093		0.168
+sorted50000		0.891		0.656		3.157
+
+sort type		bubble  	merge       selection

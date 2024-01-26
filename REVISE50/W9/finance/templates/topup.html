@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Add Cash
+{% endblock %}
+
+{% block main %}
+    <form action="/topup" method="post">
+        <div class="mb-3">
+            <h3>Amount:</h3>
+            <input class="form-control mx-auto w-auto" id="symbol" name="topup" placeholder="Top Up Amount" type="text">
+        </div>
+        <button class="btn btn-primary" type="submit">Top Up</button>
+    </form>
+{% endblock %}

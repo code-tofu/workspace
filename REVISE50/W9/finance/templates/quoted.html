@@ -1,0 +1,30 @@
+{% extends "buy.html" %}
+
+{% block title %}
+    Quote Result
+{% endblock %}
+
+{% block main %}
+    <h2>Quote:</h2>
+    <div style="width:50vw; margin:auto" mb-3>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Symbol</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>{{ quote.name }}</td>
+                <td>{{ quote.price |usd}}</td>
+                <td>{{ quote.symbol}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<h2>Buy</h2>
+{{ super() }}
+{% endblock %}

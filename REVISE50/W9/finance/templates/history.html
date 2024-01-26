@@ -1,0 +1,43 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Welcome!
+{% endblock %}
+
+{% block main %}
+    <h2>Name: {{username}}</h2>
+
+    <h2>Holdings:</h2>
+    <div style="width:50vw; margin:auto" mb-3>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Date/Time</th>
+                <th>Type</th>
+                <th>Symbol</th>
+                <th>Shares</th>
+                <th>Price</th>
+                <th>Total Amount</th>
+            </tr>
+        </thead>
+        <tbody>
+                {% for transaction in transactions %}
+                <tr>
+                    <td>{{ transaction.id }}</td>
+                    <td>{{ transaction.transaction_time }}</td>
+                    <td>{{ transaction.transaction_type}}</td>
+                    <td>{{ transaction.symbol }}</td>
+                    <td>{{ transaction.transaction_amount}}</td>
+                    <td>${{ transaction.transaction_price | usd}}</td>
+                    <td>${{(transaction.transaction_amount * transaction.transaction_price) | usd}}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+{% endblock %}
+
+
+

@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <title>Trivia!</title>
+
+</head>
+
+<body>
+    <div class="header">
+        <h1>Trivia!</h1>
+    </div>
+
+    <div class="container">
+        <div class="section">
+            <h2>Part 1: Multiple Choice </h2>
+            <hr>
+            <h3>When was the test of the first atomic bomb Trinity as part of the Manhattan project?</h3>
+            <p id="choice-result"></p>
+            <button class="butt" id="b1">4 July 1945</button>
+            <button class="butt" id="b2">16 July 1945</button>
+            <button class="butt" id="b3">9 August 1945</button>
+            <button class="butt" id="b4">16 August 1945</button>
+        </div>
+
+        <div class="section">
+            <h2>Part 2: Free Response</h2>
+            <hr>
+            <h3>What is the name of the scientist who is considered the Father of the atomic bomb?</h3>
+            <form>
+                <input id="open-input" type="text">
+                <button id="open-end" type="button">Submit</button>
+                <p id="open-result"></p>
+            </form>
+        </div>
+    </div>
+    <script>
+
+        let buttonArr = document.querySelectorAll('.butt')
+        let choiceResult = document.getElementById('choice-result');
+        for(i=0;i<buttonArr.length;i++){
+            buttonArr[i].addEventListener("click",checkChoiceAns);
+        }
+        function checkChoiceAns(e){
+            console.info(e);
+            console.info(e.srcElement.id);
+            if (e.target.innerHTML === '16 July 1945'){
+                choiceResult.innerText = "Correct!";
+                document.getElementById(e.srcElement.id).style.backgroundColor = 'green';
+            } else {
+                choiceResult.innerText = "Incorrect";
+                document.getElementById(e.srcElement.id).style.backgroundColor = 'red';
+            }
+        }
+
+        // let openAnsSubmit =  document.querySelector('#open-end'); //this also works
+        let openAnsSubmit = document.getElementById('open-end');
+        let openAns = document.getElementById('open-input');
+        let openResult = document.getElementById('open-result');
+        openAnsSubmit.addEventListener("click", checkOpenAns); //note that script has to be at the end of the page since DOM with the id has not been created yet
+        function checkOpenAns() {
+            if (openAns.value.toLowerCase() === 'oppenheimer') {
+                console.info('Correct!');
+                openAns.style.backgroundColor = 'green';
+                openResult.innerText = "Correct!";
+
+            } else {
+                console.info('Incorrect');
+                openAns.style.color = 'red';
+                openResult.innerText = "Incorrect";
+            }
+        }
+
+    </script>
+</body>
+
+</html>
